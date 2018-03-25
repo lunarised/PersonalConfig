@@ -3,7 +3,7 @@
 " Last Edit: 24/3/2018
 " losely based off the slate color scheme
 " Designed to be used in GVim. Terminal Based Vim coming soon, as i use
-" default linux pallet
+" default linux pallet.
 :set bg=dark
 :highlight clear
 hi clear
