@@ -104,7 +104,7 @@ set $workspace6 "6"
 set $workspace7 "7"
 set $workspace8 "8"
 set $workspace9 "9"
-set $workspace10 "0"
+set $workspace10 "NonLocalTerminal"
 
 #Window Assignment
 assign [class="Rhythmbox"] $workspace3
@@ -241,7 +241,7 @@ bindsym $mod+Control+End exec --no-startup-id amixer set Master toggle
 
 
 ### Run at start ###
-exec_always --no-startup-id feh --bg-scale /home/lunarised/Pictures/wallpaper.jpg
+exec_always --no-startup-id feh --bg-scale /home/lunarised/Pictures/powerlines.jpg
 exec --no-startup-id nm-applet
 exec --no-startup-id mpd
 exec --no-startup-id mpc -p 4269 pause
