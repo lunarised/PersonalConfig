@@ -132,7 +132,7 @@ XF86AudioLowerVolume
 XF86AudioMute
 	amixer set Master toggle
 #Launch ncmpcpp
-XF86Launch1
+shift + XF86Launch1
 	urxvt -name ncmpcpp -e ncmpcpp
 #MPC Controls
 XF86AudioPrev
@@ -154,6 +154,9 @@ super + XF86Launch1
 XF86Battery
 	bnotif
 #
+
+XF86Launch1
+	urxvt
 XF86ScreenSaver
 	i3lock-fancy-dualmonitor
 #
@@ -161,3 +164,7 @@ super + shift + p
 	cnotif
 super + shift + v
 	vnotif
+XF86MonBrightnessDown
+	sudo xbacklight -dec 10
+XF86MonBrightnessUp
+	sudo xbacklight -inc 10
