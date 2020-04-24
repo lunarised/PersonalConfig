@@ -1,6 +1,6 @@
-URxvt.font: xft:monospace:size=11
+URxvt.font: xft:monospace:size=9
 URxvt.scrollBar: false
-URxvt.letterspace: -5
+URxvt.letterspace: 0
 URxvt.transparent: true
 URxvt.shading: 10
 URxvt*foreground: #CCCCCC
